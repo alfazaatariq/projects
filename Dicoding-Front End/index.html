@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BukuKu</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="#"><img src="assets/logo.png" alt="" srcset="" /></a>
+      </nav>
+    </header>
+    <main class="container">
+      <div class="add-buku">
+        <h3 id="title">Masukan Buku!</h3>
+        <div class="judul">
+          <label for="judul">Judul</label>
+          <input type="text" name="" id="judul" maxlength="64" />
+        </div>
+        <div class="penulis">
+          <label for="penulis">Penulis</label>
+          <input type="text" name="" id="penulis" maxlength="64" />
+        </div>
+        <div class="tahun">
+          <label for="tahun">Tahun</label>
+          <input type="date" name="" id="tahun" />
+        </div>
+        <div class="selesai">
+          <label for="selesai">Selesai Dibaca</label>
+          <input type="checkbox" name="" id="selesai" value="checked" />
+        </div>
+        <input
+          onclick="addBooks(); clearOutput(); displayBooks();"
+          id="btn"
+          type="submit"
+          value="Masukan Buku!"
+        />
+      </div>
+      <div class="search">
+        <h3>Cari</h3>
+        <input
+          type="text"
+          name=""
+          id="judulBuku"
+          placeholder="Judul"
+          maxlength="64"
+        />
+        <input
+          onclick="searchBooks()"
+          type="submit"
+          value="Cari Buku!"
+          id="cari"
+        />
+      </div>
+      <div class="sudah-dibaca">
+        <h3>Sudah Dibaca</h3>
+      </div>
+      <div class="belum-dibaca">
+        <h3>Belum Dibaca</h3>
+      </div>
+
+      <div class="modal">
+        <div class="modal-content">
+          <p>Anda yakin ingin menghapus buku ini?</p>
+          <div class="btnOpsi">
+            <input id="iyah" type="button" value="Iya" />
+            <input id="gaa" type="button" value="Tidak" />
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="js/index.js"></script>
+  </body>
+</html>

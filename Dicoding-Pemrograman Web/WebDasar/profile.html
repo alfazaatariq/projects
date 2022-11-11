@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bengkel Coding</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <a href="index.html"><img src="assets/img/Logo.png" alt="" /></a>
+        <ul>
+          <p id="showName"></p>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="learn.html">Learn</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="#">Profile</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="content-profile">
+      <h3 id="username">Al Faza</h3>
+      <h3 id="email">alfaza@gmail.com</h3>
+      <div class="profile-details">
+        <h3>Edit Profile</h3>
+        <div class="username">
+          <input
+            id="inputUsername"
+            type="text"
+            name="username"
+            placeholder="Username"
+            maxlength="20"
+            value
+          />
+        </div>
+        <div class="email">
+          <input
+            id="inputEmail"
+            type="email"
+            name="email"
+            placeholder="Email"
+            maxlength="64"
+            value
+          />
+        </div>
+      </div>
+      <button onclick="changeName()" class="profile-save">Save</button>
+    </main>
+    <footer>
+      <h6>This web is made by me</h6>
+      <h6>2022</h6>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
