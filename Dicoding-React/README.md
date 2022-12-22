@@ -10,7 +10,7 @@ Project ini merupakan lanjutan dari submission course sebelumnya, dengan penamba
             hapus catatan.
             
   - Registrasi dan Autentikasi Pengguna :
-      Aplikasi memiliki fitur registrasi dan autentikasi (login) pengguna dengan detail berikut.
+      Aplikasi memiliki fitur registrasi dan autentikasi (login) pengguna dengan detail berikut :
         1. Halaman untuk registrasi pengguna dengan input:
             nama,
             email,
@@ -22,12 +22,12 @@ Project ini merupakan lanjutan dari submission course sebelumnya, dengan penamba
         5. Tombol logout (keluar aplikasi) untuk menghapus autentikasi pengguna yang tersimpan.
         
   - Memproteksi Fitur Catatan :
-      Fitur catatan hanya dapat diakses oleh pengguna yang telah terautentikasi. Berikut detailnya
+      Fitur catatan hanya dapat diakses oleh pengguna yang telah terautentikasi. Berikut detailnya : 
         1. Fitur catatan seperti daftar catatan, detail catatan, dan hapus catatan hanya dapat diakses bila pengguna telah melakukan autentikasi. Bila belum, pengguna hanya dapat mengakses halaman login atau registrasi saja.
         2. Menampilkan resource catatan yang hanya dimiliki oleh pengguna yang terautentikasi.
         
   - Ubah Tema :
-      Aplikasi memiliki fitur ubah tema. Berikut detailnya:
+      Aplikasi memiliki fitur ubah tema. Berikut detailnya :
         1. Terdapat tombol untuk mengubah tema gelap/terang.
         2. Memanfaatkan React Context dalam membangun fitur ubah tema.
         3. Menyimpan perubahan tema ke local storage agar perubahannya persisten.
