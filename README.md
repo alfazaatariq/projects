@@ -1,6 +1,7 @@
 hello world! this is what i have been working on so far in my learning journey :)
 
 LIVE DEMO :
+- Dicoding-Pemrograman Web : https://malfazaa-slicing.netlify.app/
 - Dicoding-Front End : https://malfazaa-bukuku.netlify.app/
 - Dicoding-React : https://malfazaa-mynotes.netlify.app/
 
